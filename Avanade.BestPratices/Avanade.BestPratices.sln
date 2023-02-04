@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3ECBC5E1-FC3F-4DB1-BE5D-E80D67918858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F5BCD8DB-7232-4548-9BA9-714B7432DF98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{A334D5E1-B108-4367-B264-251E0C9717EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{CEB537AD-D93F-4155-B894-48685283D909}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{69591E34-9887-44DA-B2ED-8728BCDC27EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.BestPratices.API", "src\Avanade.BestPratices.API\Avanade.BestPratices.API.csproj", "{EBC392C1-9712-43EF-9D3B-4B6E3AA8AF61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.BestPratices.Service", "src\Avanade.BestPratices.Service\Avanade.BestPratices.Service.csproj", "{5661AC1A-A1C0-489A-BDB6-3B884733C272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{85FC2F23-FD5B-4AB3-A0AA-11E906C485AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{5CF6DD2A-0E20-4061-8A50-6AF312302E8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.BestPratices.Infra.Core", "src\Avanade.BestPratices.Infra.Core\Avanade.BestPratices.Infra.Core.csproj", "{0AA1A3F4-AC7C-4CB3-97E5-F09098611E38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.BestPratices.Tests", "src\Avanade.BestPratices.Tests\Avanade.BestPratices.Tests.csproj", "{45100F36-28F1-4B1B-8D4B-85CD6D6F12C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.BestPratices.Domain", "src\Avanade.BestPratices.Domain\Avanade.BestPratices.Domain.csproj", "{BF5F0F53-EAA2-4C94-8A12-488AA5C771AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.BestPratices.Infra.CrossCutting", "src\Avanade.BestPratices.Infra.CrossCutting\Avanade.BestPratices.Infra.CrossCutting.csproj", "{7AD5B745-E0A5-43E7-869F-80683CAEA4FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.BestPratices.Infra.Data", "src\Avanade.BestPratices.Infra.Data\Avanade.BestPratices.Infra.Data.csproj", "{531A198B-7E8F-4EA8-8C5C-D258D9E3A2B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC392C1-9712-43EF-9D3B-4B6E3AA8AF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC392C1-9712-43EF-9D3B-4B6E3AA8AF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC392C1-9712-43EF-9D3B-4B6E3AA8AF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC392C1-9712-43EF-9D3B-4B6E3AA8AF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5661AC1A-A1C0-489A-BDB6-3B884733C272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5661AC1A-A1C0-489A-BDB6-3B884733C272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5661AC1A-A1C0-489A-BDB6-3B884733C272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5661AC1A-A1C0-489A-BDB6-3B884733C272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA1A3F4-AC7C-4CB3-97E5-F09098611E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA1A3F4-AC7C-4CB3-97E5-F09098611E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA1A3F4-AC7C-4CB3-97E5-F09098611E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA1A3F4-AC7C-4CB3-97E5-F09098611E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45100F36-28F1-4B1B-8D4B-85CD6D6F12C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45100F36-28F1-4B1B-8D4B-85CD6D6F12C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45100F36-28F1-4B1B-8D4B-85CD6D6F12C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45100F36-28F1-4B1B-8D4B-85CD6D6F12C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5F0F53-EAA2-4C94-8A12-488AA5C771AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5F0F53-EAA2-4C94-8A12-488AA5C771AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5F0F53-EAA2-4C94-8A12-488AA5C771AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5F0F53-EAA2-4C94-8A12-488AA5C771AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD5B745-E0A5-43E7-869F-80683CAEA4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD5B745-E0A5-43E7-869F-80683CAEA4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD5B745-E0A5-43E7-869F-80683CAEA4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD5B745-E0A5-43E7-869F-80683CAEA4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531A198B-7E8F-4EA8-8C5C-D258D9E3A2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531A198B-7E8F-4EA8-8C5C-D258D9E3A2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531A198B-7E8F-4EA8-8C5C-D258D9E3A2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531A198B-7E8F-4EA8-8C5C-D258D9E3A2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBC392C1-9712-43EF-9D3B-4B6E3AA8AF61} = {3ECBC5E1-FC3F-4DB1-BE5D-E80D67918858}
+		{5661AC1A-A1C0-489A-BDB6-3B884733C272} = {A334D5E1-B108-4367-B264-251E0C9717EA}
+		{85FC2F23-FD5B-4AB3-A0AA-11E906C485AE} = {CEB537AD-D93F-4155-B894-48685283D909}
+		{5CF6DD2A-0E20-4061-8A50-6AF312302E8E} = {CEB537AD-D93F-4155-B894-48685283D909}
+		{0AA1A3F4-AC7C-4CB3-97E5-F09098611E38} = {CEB537AD-D93F-4155-B894-48685283D909}
+		{45100F36-28F1-4B1B-8D4B-85CD6D6F12C2} = {69591E34-9887-44DA-B2ED-8728BCDC27EC}
+		{BF5F0F53-EAA2-4C94-8A12-488AA5C771AE} = {F5BCD8DB-7232-4548-9BA9-714B7432DF98}
+		{7AD5B745-E0A5-43E7-869F-80683CAEA4FE} = {5CF6DD2A-0E20-4061-8A50-6AF312302E8E}
+		{531A198B-7E8F-4EA8-8C5C-D258D9E3A2B9} = {85FC2F23-FD5B-4AB3-A0AA-11E906C485AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64B1D73C-46A0-470F-A325-DAB14CE020BE}
+	EndGlobalSection
+EndGlobal
