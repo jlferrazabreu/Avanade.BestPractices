@@ -8,9 +8,4 @@
     <ProjectReference Include="..\Avanade.BestPratices.Infra.Core\Avanade.BestPratices.Infra.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\Services\" />
-    <Folder Include="Interfaces\Repositories\" />
-  </ItemGroup>
-
 </Project>

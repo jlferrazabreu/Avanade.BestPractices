@@ -11,5 +11,6 @@ namespace Avanade.BestPratices.Domain.Entities
         public string Plate { get; set; }
         public int Year { get; set; }
         public string Color { get; set; }
+        public bool IsAvailabe { get; set; }
     }
 }

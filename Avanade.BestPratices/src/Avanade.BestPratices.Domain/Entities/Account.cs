@@ -7,6 +7,6 @@ namespace Avanade.BestPratices.Domain.Entities
     {
         public string Name { get; set; }
         public DateTime DateOfBirthday { get; set; }
-        public int DriverLicense { get; set; }
+        public bool IsAproved { get; set; }
     }
 }
