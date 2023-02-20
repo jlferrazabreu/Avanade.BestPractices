@@ -1,4 +1,5 @@
 using Avanade.BestPratices.Infra.CrossCutting.InversionOfControl;
+using Avanade.BestPratices.Infra.CrossCutting.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -20,6 +21,8 @@ namespace Avanade.BestPratice.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddEntityDependencies(Configuration);
+            services.AddUserLoggedInfoDependency();
             services.AddRepositoryDependencies();
             services.AddServiceDependencies();
             services.AddControllers();
@@ -44,6 +47,8 @@ namespace Avanade.BestPratice.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseLoggedInfo();
 
             app.UseEndpoints(endpoints =>
             {
