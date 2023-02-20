@@ -18,7 +18,7 @@ namespace Avanade.BestPratices.Infra.Data.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Account>(new AccountConfiguration().Configure);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(EntityContext).Assembly);
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Avanade.BestPratices.Infra.CrossCutting.InversionOfControl
 {
     public static class RepositoryDependency
     {
-        public static void AddRepositoryDependencies(this ServiceCollection services)
+        public static void AddRepositoryDependencies(this IServiceCollection services)
         {
             services.AddScoped(typeof(IRepository<>), typeof(RepositoryBase<>));
         }
